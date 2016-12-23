@@ -4,6 +4,7 @@ img {width: 100%;}
 
 .sec1 {
   background: url(../img/desktop-background.jpg);
+  /*background: url(https://sam-riley.github.io/portfolio/img/desktop-background.jpg);*/
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -95,11 +96,43 @@ img {width: 100%;}
   font-size: 90px;
 }
 
-.sec3 img {
-  padding: 5px;
-  width: 100%;
-  height: 500px;
+.sec3 h4 {
+  text-align: center;
 }
+
+.sec3 img {
+  padding: 20px;
+  width: 100%;
+  height: 400px;
+}
+
+.page4 {
+  background: #808080;
+}
+
+.page4 h2 {
+  font-family: Crimson;
+  color: #262626;
+}
+
+.sec4 ul {
+  list-style: none;
+  padding-right: 55px;
+}
+
+.sec4 ul li {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.sec4 ul li a {
+  color: #262626;
+}
+
+.sec4 ul li a:hover {
+  color: #262626;
+}
+
 
 @media (max-width: 768px) {
   .sec1 h1 {
