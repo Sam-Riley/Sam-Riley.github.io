@@ -4,26 +4,38 @@ img {width: 100%;}
 
 .sec1 {
   background: url(../img/desktop-background.jpg);
-  /*background: url(https://sam-riley.github.io/portfolio/img/desktop-background.jpg);*/
-  height: 100vh;
+  /*background: url(https://sam-riley.github.io/portfolio/img/Sam-Riley.jpg);*/
+  /*height: 100vh;*/
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  /*background: #555557;*/
+  min-height: 100vh;
+  max-height: 100%;
+  padding: 60px;
 }
 
-.sec1 h1 {
-  font-family: Crimson;
-  font-size: 90px;
-  color: black;
+.sec1 .sec1Box {
+  background: white;
+  height: 100%;
+  width: 400px;
+  margin: auto;
+  padding: 30px;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
-.sec1 h2 {
-  font-family: Crimson;
-  color: black;
+.sec1 .sec1Box h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 60px;
+  color: #262626;
 }
 
-.sec1 img {
-  margin-top: 200px;
+.sec1 .sec1Box h2 {
+  font-family: 'Lato', sans-serif;
+  color: #262626;
+}
+
+.sec1 .sec1Box img {
   opacity: 0.89;
   border-radius: 100%;
   max-width: 300px;
@@ -37,13 +49,25 @@ img {width: 100%;}
 }
 
 .sec1Contact ul li {
-  font-size: 40px;
+  font-size: 45px;
   margin: 10px;
   display: inline-block;
 }
 
 .sec1Contact ul li a {
-  color: #808080;
+  color: #262626;
+}
+
+.sec1Contact ul li a:hover {
+  color: #555557;
+}
+
+.resume-button {
+  background: #262626;
+  color: white;
+  font-family: Crimson;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  transition: all 0.3s ease;
 }
 
 .resume-button {
