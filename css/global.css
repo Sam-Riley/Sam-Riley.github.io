@@ -4,12 +4,10 @@ img {width: 100%;}
 
 .sec1 {
   background: url(../img/desktop-background.jpg);
-  /*background: url(https://sam-riley.github.io/portfolio/img/Sam-Riley.jpg);*/
   /*height: 100vh;*/
-  /*background-position: center;*/
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  /*background: #555557;*/
   min-height: 100vh;
   max-height: 100%;
   padding: 60px;
