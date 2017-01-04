@@ -6,13 +6,14 @@ img {width: 100%;}
   background: url(../img/desktop-background.jpg);
   /*background: url(https://sam-riley.github.io/portfolio/img/Sam-Riley.jpg);*/
   /*height: 100vh;*/
-  background-position: center;
+  /*background-position: center;*/
   background-repeat: no-repeat;
   background-attachment: fixed;
   /*background: #555557;*/
   min-height: 100vh;
   max-height: 100%;
   padding: 60px;
+  margin: auto;
 }
 
 .sec1 .sec1Box {
@@ -22,6 +23,7 @@ img {width: 100%;}
   margin: auto;
   padding: 30px;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  align-items: center;
 }
 
 .sec1 .sec1Box h1 {
