@@ -20,26 +20,27 @@ img {width: 100%;}
   width: 400px;
   margin: auto;
   padding: 30px;
-  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  /*box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);*/
   align-items: center;
+  border-radius: 20px;
 }
 
 .sec1 .sec1Box h1 {
-  font-family: 'Lato', sans-serif;
-  font-size: 60px;
+  font-size: 50px;
   color: #262626;
 }
 
 .sec1 .sec1Box h2 {
-  font-family: 'Lato', sans-serif;
-  color: #262626;
+    color: #262626;
 }
 
 .sec1 .sec1Box img {
-  opacity: 0.89;
-  border-radius: 100%;
+  opacity: 0.85;
+  object-fit: cover;
   max-width: 300px;
   max-height: 300px;
+  border-radius: 20px;
+
 }
 
 .sec1Contact ul {
@@ -60,26 +61,14 @@ img {width: 100%;}
 
 .sec1Contact ul li a:hover {
   color: #555557;
+  display: inline-block;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transform: scale(1.1);
 }
 
-.resume-button {
-  background: #262626;
-  color: white;
-  font-family: Crimson;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
-  transition: all 0.3s ease;
-}
-
-.resume-button {
-  background: #808080;
-  color: white;
-  font-family: Crimson;
-}
-
-.resume-button:hover {
-  background: #262626;
-  color: #808080;
-}
 
 .sec2 {
   height: 100%;
@@ -107,6 +96,14 @@ img {width: 100%;}
 .sec2 ul li i {
   font-size: 120px;
 }
+.sec2Skills ul li:hover {
+  display: inline-block;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transform: scale(1.1);
+}
 
 .sec3 {
   background: #808080;
@@ -130,25 +127,25 @@ img {width: 100%;}
   height: 400px;
 }
 
-.sec4 {
-  /*background: #808080;*/
-  margin-bottom: 30px;
-  padding-bottom: 30px;
-}
-
 .sec3 h2 {
   font-family: Crimson;
-  /*color: #808080;*/
+}
+
+.sec4 {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .sec4 ul {
   list-style: none;
   padding-right: 55px;
+  display: inline-block;
 }
 
 .sec4 ul li {
   font-size: 20px;
   margin: 10px;
+  display: inline-block;
 }
 
 .sec4 ul li a {
