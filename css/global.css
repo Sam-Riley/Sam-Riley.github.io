@@ -14,13 +14,14 @@ img {width: 100%;}
   margin: auto;
 }
 
+
+
 .sec1 .sec1Box {
-  background: white;
+  background-color: transparent;
   height: 100%;
   width: 400px;
   margin: auto;
   padding: 30px;
-  /*box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);*/
   align-items: center;
   border-radius: 20px;
 }
@@ -67,8 +68,8 @@ img {width: 100%;}
   transition-duration: 0.3s;
   transition-property: transform;
   transform: scale(1.1);
+  cursor: pointer;
 }
-
 
 .sec2 {
   height: 100%;
@@ -106,7 +107,7 @@ img {width: 100%;}
 }
 
 .sec3 {
-  background: #808080;
+  background: #828489;
   height: 100%;
   padding: 20px;
 }
