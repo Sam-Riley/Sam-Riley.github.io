@@ -70,6 +70,16 @@ img {width: 100%;}
   transform: scale(1.1);
   cursor: pointer;
 }
+.col-sm-6 a:hover {
+  color: #555557;
+  display: inline-block;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transform: scale(1.1);
+  cursor: pointer;
+}
 
 .sec2 {
   height: 100%;
